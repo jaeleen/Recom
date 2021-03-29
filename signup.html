@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <script type="text/javascript" src="signup.js"></script>
+    <title>Recom SignUp</title>
+</head>
+
+<body>
+    <div class="register-photo">
+        <div class="form-container">
+            <div class="image-holder"></div>
+            <form id="SignUp" method="post" action="login.html">
+                <h2 class="text-center"><strong>Create</strong> an account.</h2>
+                <div class="form-group"> 
+                    <input class="form-control" type="text" name="email" placeholder="Email">
+                    <label id="msg_email" class="err_msg"></label>
+                </div>
+                <div class="form-group"> 
+                    <input class="form-control" type="text" name="uname" placeholder="Username">
+                    <label id="msg_uname" class="err_msg"></label>
+                </div>
+                <div class="form-group"> 
+                    <input class="form-control" type="password" name="password" placeholder="Password">
+                    <label id="pswd" class="err_msg"></label>
+                </div>
+
+                <div class="form-group"> 
+                    <input class="form-control" type="password" name="password-repeat" placeholder="Confirm password">
+                    <label id="pswdr" class="err_msg"></label>
+                </div>
+
+                <div class="form-group"> <input type="submit" name="submit" value="Sign Up">
+                </div>
+                <a class="already" href="login.html">You already have an account? Login here.</a>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="signup-r.js"></script>
+</body>
+
+</html>

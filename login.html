@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="signup.js"></script>
+    <title>Recom Login</title>
+</head>
+
+<body>
+    <div class="register-photo">
+        <div class="form-container">
+            <div class="image-holder"></div>
+            <form id="Login" method="post" action="index.html">
+                <h2 class="text-center"><strong>Login</strong></h2>
+                <div class="form-group"> 
+                    <input class="form-control" type="text" name="email" placeholder="Email">
+                    <label id="msg_email" class="err_msg"></label>
+                </div>
+                <div class="form-group"> 
+                    <input class="form-control" type="password" name="password" placeholder="Password">
+                    <label id="pswd" class="err_msg"></label>
+                </div>
+
+                <div class="form-group"> 
+                    <input class="form-control" type="password" name="password-repeat" placeholder="Confirm password">
+                    <label id="pswdr" class="err_msg"></label>
+                </div>
+
+                <div class="form-group"> <input type="submit" name="submit" value="Sign Up">
+                </div>
+                <a class="already" href="index.html">Continue as guest</a>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="signup-r.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+Name: Precious Okon
+Student Number: 200358811
+Class number: CS215
+
+URL: http://www2.cs.uregina.ca/~okon202p/index.html
+
+FILES:
+index.html
+This is the main page of the website. Purpose id to help user navigate the site efficiently and satisfyingly. with visible and readable links directing the user to other pages
+
+signup.html
+This page is to enable the user create an account in order to activate the other pages of the website for efficient use. With a link to a login page, incase the user is already an account holder.
+
+login.html
+This page is to enable the user login to an account and also gives the option for the user to continue as a guest.
+
+watchlistdetails.html
+enables the user create and delete older watchlists.
+
+watchlist.html
+Enables the user view all their previously created watchlists---movie cards and all.
+
+moviedetails.html
+Enables the user to view the details on that selected movie. with rating options and a link to the wikipedia page. 
+
+style.css
+This is a css file with the sole purpose of styling all the pages in the website to ensure consistency.
